@@ -20,14 +20,6 @@ Then download the project:
 $ git clone git@github.com:cyhteam/InitApp.git
 ```
 
-To check if everything is working properly launch the compilation:
-
-```bash
-$ ant release
-```
-
-The result should be  `** BUILD SUCCEEDED **`.
-
 ## Build & Deploy
 
 The project is provided with an Ant Buildfile called `build.xml`, located in the root folder. Inside Buildfile there are some targets that can perform common operations.
