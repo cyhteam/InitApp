@@ -6,10 +6,6 @@ Startup project for CYH team, other projects will be based on this
 ## Disclaimer
 All code on this repository is for educational purposes only and is not intended for production code. The code is supplied "as is". Use at your own risks.
 
-## Kimera Mobile
-
-Kimera Mobile represents the typical client/server iOS application.
-
 ## Installation
 
 To properly configure the project is necessary:
