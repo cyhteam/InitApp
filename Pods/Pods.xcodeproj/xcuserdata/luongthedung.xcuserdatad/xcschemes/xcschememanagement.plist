@@ -9,12 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-BugSense.xcscheme</key>
+		<key>Pods-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CocoaLumberjack.xcscheme</key>
+		<key>Pods-FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3D2E8A0D309CAA3E4B6CABC4</key>
+		<key>18D7C5A46349F329C7286260</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A1BAE2A02F98DC5A57EC90F</key>
+		<key>1F0B508268E7B7E67E4A9609</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>982B56CB150387DEC70A9A0F</key>
+		<key>64202526EE6FE4281AB147EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1E71FED0390C64FB09C32E1</key>
+		<key>D1D3C5984D5F1AAEF2991923</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF55EB3C51EF60C33095B2DF</key>
+		<key>F62D3DC6A0E62684403BEFC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBD2E3F5E9C9055DDC15B0EE</key>
+		<key>F99E0159BF0A48D55BFB111D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

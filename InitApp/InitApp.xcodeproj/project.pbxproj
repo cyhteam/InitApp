@@ -58,7 +58,6 @@
 		26B9FB781A1F0EB800AEB323 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B9FB3E1A1F0EB800AEB323 /* libTestFlight.a */; };
 		26B9FB791A1F0EB800AEB323 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB3F1A1F0EB800AEB323 /* README.md */; };
 		26B9FB7A1A1F0EB800AEB323 /* release_notes.md in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB401A1F0EB800AEB323 /* release_notes.md */; };
-		26B9FB801A1F0F3500AEB323 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26B9FB7D1A1F0F3500AEB323 /* Info.plist */; };
 		26B9FB811A1F0F3500AEB323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB7E1A1F0F3500AEB323 /* main.m */; };
 		26B9FB831A1F0FF000AEB323 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B9FB821A1F0FF000AEB323 /* CFNetwork.framework */; };
 		26B9FB851A1F100800AEB323 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B9FB841A1F100800AEB323 /* CoreGraphics.framework */; };
@@ -72,6 +71,18 @@
 		26B9FB9C1A1F12C900AEB323 /* KMRMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB981A1F12C900AEB323 /* KMRMDataModel.m */; };
 		26B9FB9D1A1F12C900AEB323 /* KMRMTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */; };
 		26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */; };
+		26D5F0271A1F746B00B75557 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0261A1F746B00B75557 /* Constants.m */; };
+		26D5F02D1A1F79D300B75557 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F02C1A1F79D300B75557 /* AppManager.m */; };
+		26D5F0381A1F7B8E00B75557 /* FCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0311A1F7B8E00B75557 /* FCModel.m */; };
+		26D5F0391A1F7B8E00B75557 /* FCModelCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0331A1F7B8E00B75557 /* FCModelCachedObject.m */; };
+		26D5F03A1A1F7B8E00B75557 /* FCModelDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0351A1F7B8E00B75557 /* FCModelDatabaseQueue.m */; };
+		26D5F03E1A1F7C6D00B75557 /* DBDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F03D1A1F7C6D00B75557 /* DBDatasource.m */; };
+		26D5F0581A1F81D100B75557 /* BWCrashReportTextFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F04E1A1F81D100B75557 /* BWCrashReportTextFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26D5F0591A1F81D100B75557 /* BWQuincyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0501A1F81D100B75557 /* BWQuincyManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26D5F05A1A1F81D100B75557 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D5F0511A1F81D100B75557 /* CrashReporter.framework */; };
+		26D5F05B1A1F81D100B75557 /* Quincy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26D5F0521A1F81D100B75557 /* Quincy.bundle */; };
+		26D5F06F1A1F876100B75557 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D5F06E1A1F876100B75557 /* libicucore.dylib */; };
+		26D5F0711A1F877000B75557 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D5F0701A1F877000B75557 /* Security.framework */; };
 		E2D29603D9DB99EE203AEE43 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBFD040F9990B503F63BA3D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -184,6 +195,26 @@
 		26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRMTopic.m; sourceTree = "<group>"; };
 		26B9FB9E1A1F153E00AEB323 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26D5F0251A1F746B00B75557 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		26D5F0261A1F746B00B75557 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		26D5F02B1A1F79D300B75557 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		26D5F02C1A1F79D300B75557 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		26D5F0301A1F7B8E00B75557 /* FCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCModel.h; sourceTree = "<group>"; };
+		26D5F0311A1F7B8E00B75557 /* FCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCModel.m; sourceTree = "<group>"; };
+		26D5F0321A1F7B8E00B75557 /* FCModelCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCModelCachedObject.h; sourceTree = "<group>"; };
+		26D5F0331A1F7B8E00B75557 /* FCModelCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCModelCachedObject.m; sourceTree = "<group>"; };
+		26D5F0341A1F7B8E00B75557 /* FCModelDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCModelDatabaseQueue.h; sourceTree = "<group>"; };
+		26D5F0351A1F7B8E00B75557 /* FCModelDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCModelDatabaseQueue.m; sourceTree = "<group>"; };
+		26D5F03C1A1F7C6D00B75557 /* DBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDataSource.h; sourceTree = "<group>"; };
+		26D5F03D1A1F7C6D00B75557 /* DBDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDatasource.m; sourceTree = "<group>"; };
+		26D5F04D1A1F81D100B75557 /* BWCrashReportTextFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCrashReportTextFormatter.h; sourceTree = "<group>"; };
+		26D5F04E1A1F81D100B75557 /* BWCrashReportTextFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCrashReportTextFormatter.m; sourceTree = "<group>"; };
+		26D5F04F1A1F81D100B75557 /* BWQuincyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWQuincyManager.h; sourceTree = "<group>"; };
+		26D5F0501A1F81D100B75557 /* BWQuincyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWQuincyManager.m; sourceTree = "<group>"; };
+		26D5F0511A1F81D100B75557 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		26D5F0521A1F81D100B75557 /* Quincy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Quincy.bundle; sourceTree = "<group>"; };
+		26D5F06E1A1F876100B75557 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		26D5F0701A1F877000B75557 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		618512A6AD78925C581E1F0E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8BBFD040F9990B503F63BA3D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DAB36A352CDAFF6BB187F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +225,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D5F0711A1F877000B75557 /* Security.framework in Frameworks */,
+				26B9FB831A1F0FF000AEB323 /* CFNetwork.framework in Frameworks */,
+				26D5F06F1A1F876100B75557 /* libicucore.dylib in Frameworks */,
 				26B9FB931A1F107B00AEB323 /* UIKit.framework in Frameworks */,
 				26B9FB911A1F107400AEB323 /* SystemConfiguration.framework in Frameworks */,
 				26B9FB8D1A1F104A00AEB323 /* QuartzCore.framework in Frameworks */,
@@ -201,7 +235,7 @@
 				26B9FB891A1F102D00AEB323 /* libz.dylib in Frameworks */,
 				26B9FB871A1F101B00AEB323 /* Foundation.framework in Frameworks */,
 				26B9FB851A1F100800AEB323 /* CoreGraphics.framework in Frameworks */,
-				26B9FB831A1F0FF000AEB323 /* CFNetwork.framework in Frameworks */,
+				26D5F05A1A1F81D100B75557 /* CrashReporter.framework in Frameworks */,
 				26B9FB781A1F0EB800AEB323 /* libTestFlight.a in Frameworks */,
 				26B9FB771A1F0EB800AEB323 /* SparkInspector.framework in Frameworks */,
 				E2D29603D9DB99EE203AEE43 /* libPods.a in Frameworks */,
@@ -221,6 +255,8 @@
 		12232950EE39D9C06615DC2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26D5F0701A1F877000B75557 /* Security.framework */,
+				26D5F06E1A1F876100B75557 /* libicucore.dylib */,
 				26B9FB921A1F107B00AEB323 /* UIKit.framework */,
 				26B9FB901A1F107400AEB323 /* SystemConfiguration.framework */,
 				26B9FB8E1A1F105D00AEB323 /* SenTestingKit.framework */,
@@ -288,11 +324,17 @@
 		26B9FACB1A1F0EB800AEB323 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				26D5F03C1A1F7C6D00B75557 /* DBDataSource.h */,
+				26D5F03D1A1F7C6D00B75557 /* DBDatasource.m */,
+				26D5F0251A1F746B00B75557 /* Constants.h */,
+				26D5F0261A1F746B00B75557 /* Constants.m */,
 				26B9FB9E1A1F153E00AEB323 /* AppDelegate.h */,
 				26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */,
 				26B9FB7D1A1F0F3500AEB323 /* Info.plist */,
 				26B9FB7E1A1F0F3500AEB323 /* main.m */,
 				26B9FACD1A1F0EB800AEB323 /* Prefix.pch */,
+				26D5F02B1A1F79D300B75557 /* AppManager.h */,
+				26D5F02C1A1F79D300B75557 /* AppManager.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -407,6 +449,7 @@
 		26B9FAF41A1F0EB800AEB323 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				26D5F02E1A1F7B8E00B75557 /* Database */,
 				26B9FAF51A1F0EB800AEB323 /* Categories */,
 				26B9FAF81A1F0EB800AEB323 /* Cells */,
 				26B9FB011A1F0EB800AEB323 /* Controllers */,
@@ -589,6 +632,7 @@
 		26B9FB341A1F0EB800AEB323 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				26D5F04C1A1F81D100B75557 /* CrashReport */,
 				26B9FB351A1F0EB800AEB323 /* DMLogger */,
 				26B9FB381A1F0EB800AEB323 /* lldb_utilities */,
 				26B9FB3C1A1F0EB800AEB323 /* SparkInspector.framework */,
@@ -640,6 +684,40 @@
 				26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		26D5F02E1A1F7B8E00B75557 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				26D5F02F1A1F7B8E00B75557 /* FCModel */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		26D5F02F1A1F7B8E00B75557 /* FCModel */ = {
+			isa = PBXGroup;
+			children = (
+				26D5F0301A1F7B8E00B75557 /* FCModel.h */,
+				26D5F0311A1F7B8E00B75557 /* FCModel.m */,
+				26D5F0321A1F7B8E00B75557 /* FCModelCachedObject.h */,
+				26D5F0331A1F7B8E00B75557 /* FCModelCachedObject.m */,
+				26D5F0341A1F7B8E00B75557 /* FCModelDatabaseQueue.h */,
+				26D5F0351A1F7B8E00B75557 /* FCModelDatabaseQueue.m */,
+			);
+			path = FCModel;
+			sourceTree = "<group>";
+		};
+		26D5F04C1A1F81D100B75557 /* CrashReport */ = {
+			isa = PBXGroup;
+			children = (
+				26D5F04D1A1F81D100B75557 /* BWCrashReportTextFormatter.h */,
+				26D5F04E1A1F81D100B75557 /* BWCrashReportTextFormatter.m */,
+				26D5F04F1A1F81D100B75557 /* BWQuincyManager.h */,
+				26D5F0501A1F81D100B75557 /* BWQuincyManager.m */,
+				26D5F0511A1F81D100B75557 /* CrashReporter.framework */,
+				26D5F0521A1F81D100B75557 /* Quincy.bundle */,
+			);
+			path = CrashReport;
 			sourceTree = "<group>";
 		};
 		B572679C2A8FF6C81810798F /* Pods */ = {
@@ -740,6 +818,7 @@
 				26B9FB6F1A1F0EB800AEB323 /* InfoPlist.strings in Resources */,
 				26B9FB701A1F0EB800AEB323 /* Localizable.strings in Resources */,
 				26B9FB711A1F0EB800AEB323 /* KMRMArgument_summary.py in Resources */,
+				26D5F05B1A1F81D100B75557 /* Quincy.bundle in Resources */,
 				26B9FB501A1F0EB800AEB323 /* KMRMLLDBViewController~iphone.xib in Resources */,
 				26B9FB4A1A1F0EB800AEB323 /* KMRMArcIssuesViewController~iphone.xib in Resources */,
 				26B9FB581A1F0EB800AEB323 /* KMRMToolsViewController~ipad.xib in Resources */,
@@ -761,7 +840,6 @@
 				26B9FB741A1F0EB800AEB323 /* lldb_utilities.py in Resources */,
 				26B9FB531A1F0EB800AEB323 /* KMRMLoggingViewController~iphone.xib in Resources */,
 				26B9FB6E1A1F0EB800AEB323 /* meme_jackie_chan.jpg in Resources */,
-				26B9FB801A1F0F3500AEB323 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +893,7 @@
 				26B9FB4B1A1F0EB800AEB323 /* KMRMBreakpointsViewController.m in Sources */,
 				26B9FB9C1A1F12C900AEB323 /* KMRMDataModel.m in Sources */,
 				26B9FB621A1F0EB800AEB323 /* UIKitHelper.m in Sources */,
+				26D5F0391A1F7B8E00B75557 /* FCModelCachedObject.m in Sources */,
 				26B9FB7A1A1F0EB800AEB323 /* release_notes.md in Sources */,
 				26B9FB761A1F0EB800AEB323 /* README.md in Sources */,
 				26B9FB611A1F0EB800AEB323 /* CYHInterface.m in Sources */,
@@ -828,16 +907,23 @@
 				26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */,
 				26B9FB791A1F0EB800AEB323 /* README.md in Sources */,
 				26B9FB5F1A1F0EB800AEB323 /* BaseViewController.m in Sources */,
+				26D5F0591A1F81D100B75557 /* BWQuincyManager.m in Sources */,
+				26D5F0381A1F7B8E00B75557 /* FCModel.m in Sources */,
 				26B9FB451A1F0EB800AEB323 /* KMRMHomeViewController.m in Sources */,
+				26D5F0581A1F81D100B75557 /* BWCrashReportTextFormatter.m in Sources */,
 				26B9FB661A1F0EB800AEB323 /* ServiceLocator.m in Sources */,
 				26B9FB4E1A1F0EB800AEB323 /* KMRMLLDBViewController.m in Sources */,
+				26D5F02D1A1F79D300B75557 /* AppManager.m in Sources */,
 				26B9FB641A1F0EB800AEB323 /* GreenTheme.m in Sources */,
 				26B9FB5C1A1F0EB800AEB323 /* KMRMHomeCell.m in Sources */,
 				26B9FB9D1A1F12C900AEB323 /* KMRMTopic.m in Sources */,
 				26B9FB5A1A1F0EB800AEB323 /* UIResponder+CYH.m in Sources */,
+				26D5F03E1A1F7C6D00B75557 /* DBDatasource.m in Sources */,
 				26B9FB481A1F0EB800AEB323 /* KMRMArcIssuesViewController.m in Sources */,
 				26B9FB811A1F0F3500AEB323 /* main.m in Sources */,
+				26D5F03A1A1F7B8E00B75557 /* FCModelDatabaseQueue.m in Sources */,
 				26B9FB5B1A1F0EB800AEB323 /* BaseCell.m in Sources */,
+				26D5F0271A1F746B00B75557 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,6 +1004,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -952,6 +1039,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -966,6 +1054,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/InitApp/Vendors",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/InitApp/Vendors/CrashReport",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = InitApp/Application/Prefix.pch;
@@ -989,6 +1078,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/InitApp/Vendors",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/InitApp/Vendors/CrashReport",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = InitApp/Application/Prefix.pch;

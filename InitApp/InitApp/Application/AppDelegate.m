@@ -6,12 +6,13 @@
 //  Copyright (c) 2013 Massimo Oliviero. All rights reserved.
 //
 
-#import <BugSense-iOS/BugSenseController.h>
+//#import <BugSense-iOS/BugSenseController.h>
 
 
 #import "AppDelegate.h"
 
 #import "KMRMHomeViewController.h"
+#import "BWQuincyManager.h"
 
 #ifdef TESTFLIGHT
 #import "TestFlight.h"
@@ -25,6 +26,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /* Crash report */
+    
 #ifdef BUGSENSE
     //[BugSenseController sharedControllerWithBugSenseAPIKey:@"9b789d60"];
 #endif
@@ -38,6 +41,13 @@
     [TestFlight takeOff:@"82d8b72c-8e1b-4578-b421-fc780a21ff1e"];
 #endif
     
+    /* Init Crash report*/
+    //[[BWQuincyManager sharedQuincyManager] setSubmissionURL:@"http://smarttalk.app.ansv.vn/crash/crash_v300.php"];
+    //[[BWQuincyManager sharedQuincyManager] setDelegate:self];
+
+    
+    /* Start App Manager */
+    [[AppManager sharedInstance] startup];
     
     // Service Locator
     ServiceLocator *serviceLocator = [[ServiceLocator alloc] init];
