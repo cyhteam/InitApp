@@ -19,6 +19,6 @@ typedef void(^KMRMDataModelTopicsCompletion)(NSArray *topics);
 // Kimera Data Model
 @interface KMRMDataModel : NSObject
 
-- (void)getTopics:(KMRMDataModelTopicsCompletion)completion;
+- (void)getTopics:(KMRMDataModelTopicsCompletion)completion plistFile:(NSString*)plist;
 
 @end

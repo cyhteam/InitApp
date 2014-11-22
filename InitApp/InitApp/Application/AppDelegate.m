@@ -11,7 +11,7 @@
 
 #import "AppDelegate.h"
 
-#import "KMRMHomeViewController.h"
+#import "SampleHomeViewController.h"
 #import "BWQuincyManager.h"
 
 #ifdef TESTFLIGHT
@@ -56,7 +56,7 @@
     
     // Theme & Root Controller
     NSObject<Theme> *theme = [serviceLocator getServiceWithProtocol:@protocol(Theme)];
-    UINavigationController *navController =  [[UINavigationController alloc] initWithRootViewController:[[KMRMHomeViewController alloc] init]];
+    UINavigationController *navController =  [[UINavigationController alloc] initWithRootViewController:[[SampleHomeViewController alloc] init]];
     
     
     // Init Interface

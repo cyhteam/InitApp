@@ -10,13 +10,13 @@
 
 @implementation KMRMDataModel
 
-- (void)getTopics:(KMRMDataModelTopicsCompletion)completion
+- (void)getTopics:(KMRMDataModelTopicsCompletion)completion plistFile:(NSString*)plist
 {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^
     {
         NSMutableArray *topics = [[NSMutableArray alloc] init];
         
-        NSString *topicsFile = [[NSBundle mainBundle] pathForResource:@"Kimera_Topics" ofType:@"plist"];
+        NSString *topicsFile = [[NSBundle mainBundle] pathForResource:plist ofType:@"plist"];
         NSArray *topicsPlist = [NSArray arrayWithContentsOfFile:topicsFile];
         
         for (NSDictionary *topicsDic in topicsPlist)

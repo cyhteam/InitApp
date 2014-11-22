@@ -29,7 +29,7 @@
             self.sections = topics;
             [self.tableView reloadData];
         });
-    }];
+    } plistFile:@"Kimera_Topics"];
 }
 
 - (void)didReceiveMemoryWarning

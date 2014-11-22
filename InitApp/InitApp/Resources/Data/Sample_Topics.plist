@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Debugging</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Debugging</string>
+				<key>detail</key>
+				<string>Debugging, logging frameworks</string>
+				<key>viewController</key>
+				<string>KMRMHomeViewController</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Button</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Bootstrap Button</string>
+				<key>detail</key>
+				<string>Color button (success, info, warning, error)</string>
+				<key>viewController</key>
+				<string>SampleStrapButtonViewController</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Table</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Logging</string>
+				<key>detail</key>
+				<string>Alternative logging frameworks</string>
+				<key>viewController</key>
+				<string>KMRMLoggingViewController</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Menu</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Logging</string>
+				<key>detail</key>
+				<string>Alternative logging frameworks</string>
+				<key>viewController</key>
+				<string>KMRMLoggingViewController</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

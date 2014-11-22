@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		26B9FAC21A1F087400AEB323 /* InitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FAC11A1F087400AEB323 /* InitAppTests.m */; };
-		26B9FB451A1F0EB800AEB323 /* KMRMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FAD21A1F0EB800AEB323 /* KMRMHomeViewController.m */; };
-		26B9FB461A1F0EB800AEB323 /* KMRMHomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9FAD31A1F0EB800AEB323 /* KMRMHomeViewController~ipad.xib */; };
-		26B9FB471A1F0EB800AEB323 /* KMRMHomeViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9FAD41A1F0EB800AEB323 /* KMRMHomeViewController~iphone.xib */; };
 		26B9FB481A1F0EB800AEB323 /* KMRMArcIssuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FAD81A1F0EB800AEB323 /* KMRMArcIssuesViewController.m */; };
 		26B9FB491A1F0EB800AEB323 /* KMRMArcIssuesViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9FAD91A1F0EB800AEB323 /* KMRMArcIssuesViewController~ipad.xib */; };
 		26B9FB4A1A1F0EB800AEB323 /* KMRMArcIssuesViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9FADA1A1F0EB800AEB323 /* KMRMArcIssuesViewController~iphone.xib */; };
@@ -83,6 +80,17 @@
 		26D5F05B1A1F81D100B75557 /* Quincy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26D5F0521A1F81D100B75557 /* Quincy.bundle */; };
 		26D5F06F1A1F876100B75557 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D5F06E1A1F876100B75557 /* libicucore.dylib */; };
 		26D5F0711A1F877000B75557 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D5F0701A1F877000B75557 /* Security.framework */; };
+		26F107441A2091EC00AF7C46 /* KMRMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F107411A2091EC00AF7C46 /* KMRMHomeViewController.m */; };
+		26F107451A2091EC00AF7C46 /* KMRMHomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F107421A2091EC00AF7C46 /* KMRMHomeViewController~ipad.xib */; };
+		26F107461A2091EC00AF7C46 /* KMRMHomeViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F107431A2091EC00AF7C46 /* KMRMHomeViewController~iphone.xib */; };
+		26F1074C1A20931600AF7C46 /* SampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1074A1A20931600AF7C46 /* SampleHomeViewController.m */; };
+		26F1074D1A20931600AF7C46 /* SampleHomeViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F1074B1A20931600AF7C46 /* SampleHomeViewController~iphone.xib */; };
+		26F1074F1A20954700AF7C46 /* Sample_Topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26F1074E1A20954700AF7C46 /* Sample_Topics.plist */; };
+		26F107571A20A2A600AF7C46 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26F107521A20A2A600AF7C46 /* FontAwesome.ttf */; };
+		26F107581A20A2A600AF7C46 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F107541A20A2A600AF7C46 /* NSString+FontAwesome.m */; };
+		26F107591A20A2A600AF7C46 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F107561A20A2A600AF7C46 /* UIButton+Bootstrap.m */; };
+		26F1075F1A20A3ED00AF7C46 /* SampleStrapButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1075D1A20A3ED00AF7C46 /* SampleStrapButtonViewController.m */; };
+		26F107601A20A3ED00AF7C46 /* SampleStrapButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F1075E1A20A3ED00AF7C46 /* SampleStrapButtonViewController.xib */; };
 		E2D29603D9DB99EE203AEE43 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBFD040F9990B503F63BA3D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -102,10 +110,6 @@
 		26B9FAC01A1F087400AEB323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26B9FAC11A1F087400AEB323 /* InitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitAppTests.m; sourceTree = "<group>"; };
 		26B9FACD1A1F0EB800AEB323 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		26B9FAD11A1F0EB800AEB323 /* KMRMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRMHomeViewController.h; sourceTree = "<group>"; };
-		26B9FAD21A1F0EB800AEB323 /* KMRMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRMHomeViewController.m; sourceTree = "<group>"; };
-		26B9FAD31A1F0EB800AEB323 /* KMRMHomeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMRMHomeViewController~ipad.xib"; sourceTree = "<group>"; };
-		26B9FAD41A1F0EB800AEB323 /* KMRMHomeViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMRMHomeViewController~iphone.xib"; sourceTree = "<group>"; };
 		26B9FAD71A1F0EB800AEB323 /* KMRMArcIssuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRMArcIssuesViewController.h; sourceTree = "<group>"; };
 		26B9FAD81A1F0EB800AEB323 /* KMRMArcIssuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRMArcIssuesViewController.m; sourceTree = "<group>"; };
 		26B9FAD91A1F0EB800AEB323 /* KMRMArcIssuesViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMRMArcIssuesViewController~ipad.xib"; sourceTree = "<group>"; };
@@ -215,6 +219,22 @@
 		26D5F0521A1F81D100B75557 /* Quincy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Quincy.bundle; sourceTree = "<group>"; };
 		26D5F06E1A1F876100B75557 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		26D5F0701A1F877000B75557 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		26F107401A2091EC00AF7C46 /* KMRMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRMHomeViewController.h; sourceTree = "<group>"; };
+		26F107411A2091EC00AF7C46 /* KMRMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRMHomeViewController.m; sourceTree = "<group>"; };
+		26F107421A2091EC00AF7C46 /* KMRMHomeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMRMHomeViewController~ipad.xib"; sourceTree = "<group>"; };
+		26F107431A2091EC00AF7C46 /* KMRMHomeViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KMRMHomeViewController~iphone.xib"; sourceTree = "<group>"; };
+		26F107491A20931600AF7C46 /* SampleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleHomeViewController.h; sourceTree = "<group>"; };
+		26F1074A1A20931600AF7C46 /* SampleHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleHomeViewController.m; sourceTree = "<group>"; };
+		26F1074B1A20931600AF7C46 /* SampleHomeViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SampleHomeViewController~iphone.xib"; sourceTree = "<group>"; };
+		26F1074E1A20954700AF7C46 /* Sample_Topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sample_Topics.plist; sourceTree = "<group>"; };
+		26F107521A20A2A600AF7C46 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		26F107531A20A2A600AF7C46 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		26F107541A20A2A600AF7C46 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		26F107551A20A2A600AF7C46 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		26F107561A20A2A600AF7C46 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+		26F1075C1A20A3ED00AF7C46 /* SampleStrapButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStrapButtonViewController.h; sourceTree = "<group>"; };
+		26F1075D1A20A3ED00AF7C46 /* SampleStrapButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStrapButtonViewController.m; sourceTree = "<group>"; };
+		26F1075E1A20A3ED00AF7C46 /* SampleStrapButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleStrapButtonViewController.xib; sourceTree = "<group>"; };
 		618512A6AD78925C581E1F0E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8BBFD040F9990B503F63BA3D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DAB36A352CDAFF6BB187F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -294,10 +314,10 @@
 		26B9FAA41A1F087300AEB323 /* InitApp */ = {
 			isa = PBXGroup;
 			children = (
-				26B9FB941A1F12C900AEB323 /* Models */,
 				26B9FACB1A1F0EB800AEB323 /* Application */,
 				26B9FACE1A1F0EB800AEB323 /* Controllers */,
 				26B9FAF41A1F0EB800AEB323 /* Library */,
+				26B9FB941A1F12C900AEB323 /* Models */,
 				26B9FB201A1F0EB800AEB323 /* Resources */,
 				26B9FB341A1F0EB800AEB323 /* Vendors */,
 			);
@@ -344,6 +364,7 @@
 			children = (
 				26B9FACF1A1F0EB800AEB323 /* Common */,
 				26B9FAD51A1F0EB800AEB323 /* Debugging */,
+				26F107471A20921E00AF7C46 /* Samples */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -359,10 +380,6 @@
 		26B9FAD01A1F0EB800AEB323 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				26B9FAD11A1F0EB800AEB323 /* KMRMHomeViewController.h */,
-				26B9FAD21A1F0EB800AEB323 /* KMRMHomeViewController.m */,
-				26B9FAD31A1F0EB800AEB323 /* KMRMHomeViewController~ipad.xib */,
-				26B9FAD41A1F0EB800AEB323 /* KMRMHomeViewController~iphone.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -370,6 +387,7 @@
 		26B9FAD51A1F0EB800AEB323 /* Debugging */ = {
 			isa = PBXGroup;
 			children = (
+				26F1073F1A2091EC00AF7C46 /* Home */,
 				26B9FAD61A1F0EB800AEB323 /* ArcIssues */,
 				26B9FADB1A1F0EB800AEB323 /* Breakpoints */,
 				26B9FAE01A1F0EB800AEB323 /* LLDB */,
@@ -449,6 +467,7 @@
 		26B9FAF41A1F0EB800AEB323 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				26F107501A20A2A600AF7C46 /* Buttons */,
 				26D5F02E1A1F7B8E00B75557 /* Database */,
 				26B9FAF51A1F0EB800AEB323 /* Categories */,
 				26B9FAF81A1F0EB800AEB323 /* Cells */,
@@ -579,6 +598,7 @@
 		26B9FB211A1F0EB800AEB323 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				26F1074E1A20954700AF7C46 /* Sample_Topics.plist */,
 				26B9FB221A1F0EB800AEB323 /* Kimera_Topics.plist */,
 			);
 			path = Data;
@@ -720,6 +740,74 @@
 			path = CrashReport;
 			sourceTree = "<group>";
 		};
+		26F1073F1A2091EC00AF7C46 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				26F107401A2091EC00AF7C46 /* KMRMHomeViewController.h */,
+				26F107411A2091EC00AF7C46 /* KMRMHomeViewController.m */,
+				26F107421A2091EC00AF7C46 /* KMRMHomeViewController~ipad.xib */,
+				26F107431A2091EC00AF7C46 /* KMRMHomeViewController~iphone.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		26F107471A20921E00AF7C46 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				26F1075A1A20A38E00AF7C46 /* Buttons */,
+				26F107481A20931600AF7C46 /* Home */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		26F107481A20931600AF7C46 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				26F107491A20931600AF7C46 /* SampleHomeViewController.h */,
+				26F1074A1A20931600AF7C46 /* SampleHomeViewController.m */,
+				26F1074B1A20931600AF7C46 /* SampleHomeViewController~iphone.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		26F107501A20A2A600AF7C46 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				26F107511A20A2A600AF7C46 /* StrapButton */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		26F107511A20A2A600AF7C46 /* StrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				26F107521A20A2A600AF7C46 /* FontAwesome.ttf */,
+				26F107531A20A2A600AF7C46 /* NSString+FontAwesome.h */,
+				26F107541A20A2A600AF7C46 /* NSString+FontAwesome.m */,
+				26F107551A20A2A600AF7C46 /* UIButton+Bootstrap.h */,
+				26F107561A20A2A600AF7C46 /* UIButton+Bootstrap.m */,
+			);
+			path = StrapButton;
+			sourceTree = "<group>";
+		};
+		26F1075A1A20A38E00AF7C46 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				26F1075B1A20A38E00AF7C46 /* StrapButton */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		26F1075B1A20A38E00AF7C46 /* StrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				26F1075C1A20A3ED00AF7C46 /* SampleStrapButtonViewController.h */,
+				26F1075D1A20A3ED00AF7C46 /* SampleStrapButtonViewController.m */,
+				26F1075E1A20A3ED00AF7C46 /* SampleStrapButtonViewController.xib */,
+			);
+			path = StrapButton;
+			sourceTree = "<group>";
+		};
 		B572679C2A8FF6C81810798F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -813,8 +901,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B9FB6D1A1F0EB800AEB323 /* Default@2x.png in Resources */,
+				26F107571A20A2A600AF7C46 /* FontAwesome.ttf in Resources */,
 				26B9FB4D1A1F0EB800AEB323 /* KMRMBreakpointsViewController~iphone.xib in Resources */,
 				26B9FB6B1A1F0EB800AEB323 /* Default-568h@2x.png in Resources */,
+				26F107451A2091EC00AF7C46 /* KMRMHomeViewController~ipad.xib in Resources */,
+				26F1074F1A20954700AF7C46 /* Sample_Topics.plist in Resources */,
 				26B9FB6F1A1F0EB800AEB323 /* InfoPlist.strings in Resources */,
 				26B9FB701A1F0EB800AEB323 /* Localizable.strings in Resources */,
 				26B9FB711A1F0EB800AEB323 /* KMRMArgument_summary.py in Resources */,
@@ -824,10 +915,11 @@
 				26B9FB581A1F0EB800AEB323 /* KMRMToolsViewController~ipad.xib in Resources */,
 				26B9FB4C1A1F0EB800AEB323 /* KMRMBreakpointsViewController~ipad.xib in Resources */,
 				26B9FB721A1F0EB800AEB323 /* utils.py in Resources */,
-				26B9FB461A1F0EB800AEB323 /* KMRMHomeViewController~ipad.xib in Resources */,
+				26F1074D1A20931600AF7C46 /* SampleHomeViewController~iphone.xib in Resources */,
 				26B9FB591A1F0EB800AEB323 /* KMRMToolsViewController~iphone.xib in Resources */,
 				26B9FB491A1F0EB800AEB323 /* KMRMArcIssuesViewController~ipad.xib in Resources */,
 				26B9FB5E1A1F0EB800AEB323 /* KMRMHomeCell~iphone.xib in Resources */,
+				26F107601A20A3ED00AF7C46 /* SampleStrapButtonViewController.xib in Resources */,
 				26B9FB561A1F0EB800AEB323 /* KMRMMrcIssueViewController~iphone.xib in Resources */,
 				26B9FB6C1A1F0EB800AEB323 /* Default.png in Resources */,
 				26B9FB4F1A1F0EB800AEB323 /* KMRMLLDBViewController~ipad.xib in Resources */,
@@ -836,9 +928,9 @@
 				26B9FB6A1A1F0EB800AEB323 /* Kimera_Topics.plist in Resources */,
 				26B9FB521A1F0EB800AEB323 /* KMRMLoggingViewController~ipad.xib in Resources */,
 				26B9FB551A1F0EB800AEB323 /* KMRMMrcIssueViewController~ipad.xib in Resources */,
-				26B9FB471A1F0EB800AEB323 /* KMRMHomeViewController~iphone.xib in Resources */,
 				26B9FB741A1F0EB800AEB323 /* lldb_utilities.py in Resources */,
 				26B9FB531A1F0EB800AEB323 /* KMRMLoggingViewController~iphone.xib in Resources */,
+				26F107461A2091EC00AF7C46 /* KMRMHomeViewController~iphone.xib in Resources */,
 				26B9FB6E1A1F0EB800AEB323 /* meme_jackie_chan.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -906,13 +998,16 @@
 				26B9FB571A1F0EB800AEB323 /* KMRMToolsViewController.m in Sources */,
 				26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */,
 				26B9FB791A1F0EB800AEB323 /* README.md in Sources */,
+				26F107441A2091EC00AF7C46 /* KMRMHomeViewController.m in Sources */,
 				26B9FB5F1A1F0EB800AEB323 /* BaseViewController.m in Sources */,
 				26D5F0591A1F81D100B75557 /* BWQuincyManager.m in Sources */,
 				26D5F0381A1F7B8E00B75557 /* FCModel.m in Sources */,
-				26B9FB451A1F0EB800AEB323 /* KMRMHomeViewController.m in Sources */,
+				26F107581A20A2A600AF7C46 /* NSString+FontAwesome.m in Sources */,
 				26D5F0581A1F81D100B75557 /* BWCrashReportTextFormatter.m in Sources */,
+				26F107591A20A2A600AF7C46 /* UIButton+Bootstrap.m in Sources */,
 				26B9FB661A1F0EB800AEB323 /* ServiceLocator.m in Sources */,
 				26B9FB4E1A1F0EB800AEB323 /* KMRMLLDBViewController.m in Sources */,
+				26F1075F1A20A3ED00AF7C46 /* SampleStrapButtonViewController.m in Sources */,
 				26D5F02D1A1F79D300B75557 /* AppManager.m in Sources */,
 				26B9FB641A1F0EB800AEB323 /* GreenTheme.m in Sources */,
 				26B9FB5C1A1F0EB800AEB323 /* KMRMHomeCell.m in Sources */,
@@ -922,6 +1017,7 @@
 				26B9FB481A1F0EB800AEB323 /* KMRMArcIssuesViewController.m in Sources */,
 				26B9FB811A1F0F3500AEB323 /* main.m in Sources */,
 				26D5F03A1A1F7B8E00B75557 /* FCModelDatabaseQueue.m in Sources */,
+				26F1074C1A20931600AF7C46 /* SampleHomeViewController.m in Sources */,
 				26B9FB5B1A1F0EB800AEB323 /* BaseCell.m in Sources */,
 				26D5F0271A1F746B00B75557 /* Constants.m in Sources */,
 			);
