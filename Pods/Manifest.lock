@@ -31,6 +31,7 @@ PODS:
   - FMDB/standard (2.4):
     - FMDB/common
   - MBProgressHUD (0.9)
+  - MSDynamicsDrawerViewController (1.5.1)
   - NSLogger (1.5)
 
 DEPENDENCIES:
@@ -38,6 +39,7 @@ DEPENDENCIES:
   - CocoaLumberjack
   - FMDB
   - MBProgressHUD
+  - MSDynamicsDrawerViewController
   - NSLogger
 
 SPEC CHECKSUMS:
@@ -45,6 +47,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
   FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
   MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  MSDynamicsDrawerViewController: 0002059480a4b5ddde7eafbafb958a79a9b0ffaf
   NSLogger: 84ed0bf00985df483153ce344d8171c9ec83be2b
 
 COCOAPODS: 0.35.0

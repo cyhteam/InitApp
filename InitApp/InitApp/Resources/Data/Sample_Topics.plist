@@ -39,26 +39,34 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Logging</string>
+				<string>Matrix Label</string>
 				<key>detail</key>
-				<string>Alternative logging frameworks</string>
+				<string>Table by label matrix</string>
 				<key>viewController</key>
-				<string>KMRMLoggingViewController</string>
+				<string>SampleLabelMatrixViewController</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sort</string>
+				<key>detail</key>
+				<string>Sortable table</string>
+				<key>viewController</key>
+				<string>SampleSortableViewController</string>
 			</dict>
 		</array>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Menu</string>
+		<string>Popup</string>
 		<key>arguments</key>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Logging</string>
+				<string>AlertView</string>
 				<key>detail</key>
-				<string>Alternative logging frameworks</string>
+				<string>DXAlertView</string>
 				<key>viewController</key>
-				<string>KMRMLoggingViewController</string>
+				<string>SampleAlertViewController</string>
 			</dict>
 		</array>
 	</dict>

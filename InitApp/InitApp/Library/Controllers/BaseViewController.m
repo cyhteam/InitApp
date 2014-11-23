@@ -11,6 +11,7 @@
 @interface BaseViewController ()
 
 @property (nonatomic, strong) KMRMDataModel *dataModel;
+//@property (nonatomic, strong) UIPanGestureRecognizer *dynamicTransitionPanGesture;
 
 @end
 
@@ -25,5 +26,16 @@
     
     return _dataModel;
 }
+
+
+//- (void) addMenuLeft
+//{
+//    UIBarButtonItem* paneRevealLeftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menu_icon"] style:UIBarButtonItemStyleBordered target:self action:@selector(menuButtonTapped)];
+//    self.navigationItem.leftBarButtonItem = paneRevealLeftBarButtonItem;
+//}
+//
+//- (void)menuButtonTapped {
+//    [self.slidingViewController anchorTopViewToRightAnimated:YES];
+//}
 
 @end

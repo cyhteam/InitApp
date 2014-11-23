@@ -22,6 +22,16 @@
 #import "GreenTheme.h"
 #import "DefaultTheme.h"
 
+#import "MSMenuViewController.h"
+#import "MSDynamicsDrawerViewController.h"
+#import "MSDynamicsDrawerStyler.h"
+
+@interface AppDelegate () <MSDynamicsDrawerViewControllerDelegate>
+
+@property (nonatomic, strong) UIImageView *windowBackground;
+
+@end
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -48,28 +58,101 @@
     
     /* Start App Manager */
     [[AppManager sharedInstance] startup];
+
+    self.dynamicsDrawerViewController = [MSDynamicsDrawerViewController new];
+    
+    //Effect for menu
+    self.dynamicsDrawerViewController.gravityMagnitude = 3.8f;
+    self.dynamicsDrawerViewController.elasticity = 0.2f;
+    
+    self.dynamicsDrawerViewController.delegate = self;
+    
+    // Add some example stylers
+    [self.dynamicsDrawerViewController addStylersFromArray:@[[MSDynamicsDrawerScaleStyler styler], [MSDynamicsDrawerFadeStyler styler]] forDirection:MSDynamicsDrawerDirectionLeft];
+    [self.dynamicsDrawerViewController addStylersFromArray:@[[MSDynamicsDrawerParallaxStyler styler]] forDirection:MSDynamicsDrawerDirectionRight];
+    
+    MSMenuViewController *menuViewController = [MSMenuViewController new];
+
+    menuViewController.dynamicsDrawerViewController = self.dynamicsDrawerViewController;
+    [self.dynamicsDrawerViewController setDrawerViewController:menuViewController forDirection:MSDynamicsDrawerDirectionLeft];
+    
+//    MSLogoViewController *logoViewController = [MSLogoViewController new];
+//
+//    [self.dynamicsDrawerViewController setDrawerViewController:logoViewController forDirection:MSDynamicsDrawerDirectionRight];
+    
+    // Transition to the first view controller
+    [menuViewController transitionToViewController:MSPaneViewControllerTypeHome];
     
     // Service Locator
     ServiceLocator *serviceLocator = [[ServiceLocator alloc] init];
     [serviceLocator registerProtocol:@protocol(Theme) withClass:[GreenTheme class]];
     
-    
     // Theme & Root Controller
     NSObject<Theme> *theme = [serviceLocator getServiceWithProtocol:@protocol(Theme)];
-    UINavigationController *navController =  [[UINavigationController alloc] initWithRootViewController:[[SampleHomeViewController alloc] init]];
-    
     
     // Init Interface
-    self.interface = [[CYHInterface alloc] initWithTheme:theme navViewController:navController];
-
+    self.interface = [[CYHInterface alloc] initWithTheme:theme navViewController:(UINavigationController*)self.dynamicsDrawerViewController.paneViewController];
     
-    // Init Window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = navController;
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = self.dynamicsDrawerViewController;
     [self.window makeKeyAndVisible];
+    [self.window addSubview:self.windowBackground];
+    [self.window sendSubviewToBack:self.windowBackground];
     return YES;
 }
+
+#pragma mark - AppDelegate
+
+- (UIImageView *)windowBackground
+{
+    if (!_windowBackground) {
+        _windowBackground = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"window_background"]];
+    }
+    return _windowBackground;
+}
+
+- (NSString *)descriptionForPaneState:(MSDynamicsDrawerPaneState)paneState
+{
+    switch (paneState) {
+        case MSDynamicsDrawerPaneStateOpen:
+            return @"MSDynamicsDrawerPaneStateOpen";
+        case MSDynamicsDrawerPaneStateClosed:
+            return @"MSDynamicsDrawerPaneStateClosed";
+        case MSDynamicsDrawerPaneStateOpenWide:
+            return @"MSDynamicsDrawerPaneStateOpenWide";
+        default:
+            return nil;
+    }
+}
+
+- (NSString *)descriptionForDirection:(MSDynamicsDrawerDirection)direction
+{
+    switch (direction) {
+        case MSDynamicsDrawerDirectionTop:
+            return @"MSDynamicsDrawerDirectionTop";
+        case MSDynamicsDrawerDirectionLeft:
+            return @"MSDynamicsDrawerDirectionLeft";
+        case MSDynamicsDrawerDirectionBottom:
+            return @"MSDynamicsDrawerDirectionBottom";
+        case MSDynamicsDrawerDirectionRight:
+            return @"MSDynamicsDrawerDirectionRight";
+        default:
+            return nil;
+    }
+}
+
+#pragma mark - MSDynamicsDrawerViewControllerDelegate
+
+- (void)dynamicsDrawerViewController:(MSDynamicsDrawerViewController *)drawerViewController mayUpdateToPaneState:(MSDynamicsDrawerPaneState)paneState forDirection:(MSDynamicsDrawerDirection)direction
+{
+    NSLog(@"Drawer view controller may update to state `%@` for direction `%@`", [self descriptionForPaneState:paneState], [self descriptionForDirection:direction]);
+}
+
+- (void)dynamicsDrawerViewController:(MSDynamicsDrawerViewController *)drawerViewController didUpdateToPaneState:(MSDynamicsDrawerPaneState)paneState forDirection:(MSDynamicsDrawerDirection)direction
+{
+    NSLog(@"Drawer view controller did update to state `%@` for direction `%@`", [self descriptionForPaneState:paneState], [self descriptionForDirection:direction]);
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -1,4 +1,4 @@
-platform :ios, '6.0'
+platform :ios, '7.0'
 
 workspace 'CYH'
 xcodeproj 'InitApp/InitApp.xcodeproj'
@@ -8,3 +8,4 @@ pod 'CocoaLumberjack'
 pod 'NSLogger'
 pod 'MBProgressHUD'
 pod 'FMDB'
+pod 'MSDynamicsDrawerViewController'
