@@ -53,6 +53,14 @@
 				<key>viewController</key>
 				<string>SampleSortableViewController</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>DynamicResizingCell</string>
+				<key>detail</key>
+				<string>Table with dynamic height</string>
+				<key>viewController</key>
+				<string>HTKSampleTableViewController</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
