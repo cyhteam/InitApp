@@ -70,5 +70,20 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>Image</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Cache</string>
+				<key>detail</key>
+				<string>Cache Image</string>
+				<key>viewController</key>
+				<string>SampleCacheImageViewController</string>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>

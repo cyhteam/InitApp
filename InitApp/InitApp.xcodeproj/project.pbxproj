@@ -68,6 +68,11 @@
 		26B9FB9C1A1F12C900AEB323 /* KMRMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB981A1F12C900AEB323 /* KMRMDataModel.m */; };
 		26B9FB9D1A1F12C900AEB323 /* KMRMTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */; };
 		26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */; };
+		26C9461F1A2395260036214F /* DBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C946181A2395260036214F /* DBImage.m */; };
+		26C946201A2395260036214F /* DBImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9461A1A2395260036214F /* DBImageRequest.m */; };
+		26C946211A2395260036214F /* DBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9461C1A2395260036214F /* DBImageView.m */; };
+		26C946221A2395260036214F /* DBImageViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C9461E1A2395260036214F /* DBImageViewCache.m */; };
+		26C946271A2395340036214F /* SampleCacheImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C946261A2395340036214F /* SampleCacheImageViewController.m */; };
 		26CAE0B71A22FEA00032A3B9 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE0B61A22FEA00032A3B9 /* Menu.plist */; };
 		26CAE0BC1A234FF30032A3B9 /* MenuTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0B81A234FF30032A3B9 /* MenuTableViewHeader.m */; };
 		26CAE0BD1A234FF30032A3B9 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0BA1A234FF30032A3B9 /* MenuCell.m */; };
@@ -227,6 +232,16 @@
 		26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRMTopic.m; sourceTree = "<group>"; };
 		26B9FB9E1A1F153E00AEB323 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26C946171A2395260036214F /* DBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBImage.h; sourceTree = "<group>"; };
+		26C946181A2395260036214F /* DBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBImage.m; sourceTree = "<group>"; };
+		26C946191A2395260036214F /* DBImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBImageRequest.h; sourceTree = "<group>"; };
+		26C9461A1A2395260036214F /* DBImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBImageRequest.m; sourceTree = "<group>"; };
+		26C9461B1A2395260036214F /* DBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBImageView.h; sourceTree = "<group>"; };
+		26C9461C1A2395260036214F /* DBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBImageView.m; sourceTree = "<group>"; };
+		26C9461D1A2395260036214F /* DBImageViewCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBImageViewCache.h; sourceTree = "<group>"; };
+		26C9461E1A2395260036214F /* DBImageViewCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBImageViewCache.m; sourceTree = "<group>"; };
+		26C946251A2395340036214F /* SampleCacheImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCacheImageViewController.h; sourceTree = "<group>"; };
+		26C946261A2395340036214F /* SampleCacheImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCacheImageViewController.m; sourceTree = "<group>"; };
 		26CAE0B61A22FEA00032A3B9 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
 		26CAE0B81A234FF30032A3B9 /* MenuTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewHeader.m; sourceTree = "<group>"; };
 		26CAE0B91A234FF30032A3B9 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
@@ -538,6 +553,7 @@
 		26B9FAF41A1F0EB800AEB323 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				26C946151A2395260036214F /* Images */,
 				26F108121A22563000AF7C46 /* Tables */,
 				26F108081A22536100AF7C46 /* Menu */,
 				26F107611A20EA6200AF7C46 /* AlertViews */,
@@ -783,6 +799,46 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		26C946151A2395260036214F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26C946161A2395260036214F /* DBImageView */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		26C946161A2395260036214F /* DBImageView */ = {
+			isa = PBXGroup;
+			children = (
+				26C946171A2395260036214F /* DBImage.h */,
+				26C946181A2395260036214F /* DBImage.m */,
+				26C946191A2395260036214F /* DBImageRequest.h */,
+				26C9461A1A2395260036214F /* DBImageRequest.m */,
+				26C9461B1A2395260036214F /* DBImageView.h */,
+				26C9461C1A2395260036214F /* DBImageView.m */,
+				26C9461D1A2395260036214F /* DBImageViewCache.h */,
+				26C9461E1A2395260036214F /* DBImageViewCache.m */,
+			);
+			path = DBImageView;
+			sourceTree = "<group>";
+		};
+		26C946231A2395340036214F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26C946241A2395340036214F /* CacheImage */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		26C946241A2395340036214F /* CacheImage */ = {
+			isa = PBXGroup;
+			children = (
+				26C946251A2395340036214F /* SampleCacheImageViewController.h */,
+				26C946261A2395340036214F /* SampleCacheImageViewController.m */,
+			);
+			path = CacheImage;
+			sourceTree = "<group>";
+		};
 		26CAE0C11A2351040032A3B9 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -840,6 +896,7 @@
 		26F107471A20921E00AF7C46 /* Samples */ = {
 			isa = PBXGroup;
 			children = (
+				26C946231A2395340036214F /* Images */,
 				26F108171A22572000AF7C46 /* Tables */,
 				26F108011A22534200AF7C46 /* WebView */,
 				26F1076E1A20EB6F00AF7C46 /* Popups */,
@@ -1225,6 +1282,7 @@
 				26B9FB621A1F0EB800AEB323 /* UIKitHelper.m in Sources */,
 				26F107721A20EB6F00AF7C46 /* SampleAlertViewController.m in Sources */,
 				26D5F0391A1F7B8E00B75557 /* FCModelCachedObject.m in Sources */,
+				26C946221A2395260036214F /* DBImageViewCache.m in Sources */,
 				26B9FB7A1A1F0EB800AEB323 /* release_notes.md in Sources */,
 				26F1083E1A225A7900AF7C46 /* SampleSortableViewController.m in Sources */,
 				26B9FB761A1F0EB800AEB323 /* README.md in Sources */,
@@ -1232,9 +1290,11 @@
 				26B9FB541A1F0EB800AEB323 /* KMRMMrcIssueViewController.m in Sources */,
 				26B9FB631A1F0EB800AEB323 /* DefaultTheme.m in Sources */,
 				26B9FB601A1F0EB800AEB323 /* BaseTableViewController.m in Sources */,
+				26C946271A2395340036214F /* SampleCacheImageViewController.m in Sources */,
 				26B9FB9B1A1F12C900AEB323 /* KMRMArgument.m in Sources */,
 				26B9FB731A1F0EB800AEB323 /* DMLogger.m in Sources */,
 				26B9FB511A1F0EB800AEB323 /* KMRMLoggingViewController.m in Sources */,
+				26C946201A2395260036214F /* DBImageRequest.m in Sources */,
 				26F108391A225A7900AF7C46 /* ITTSegement.m in Sources */,
 				26B9FB571A1F0EB800AEB323 /* KMRMToolsViewController.m in Sources */,
 				26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */,
@@ -1248,10 +1308,12 @@
 				26F108041A22534200AF7C46 /* MSMonospaceWebViewController.m in Sources */,
 				26F108381A225A7900AF7C46 /* ITTModel.m in Sources */,
 				26F107581A20A2A600AF7C46 /* NSString+FontAwesome.m in Sources */,
+				26C9461F1A2395260036214F /* DBImage.m in Sources */,
 				26D5F0581A1F81D100B75557 /* BWCrashReportTextFormatter.m in Sources */,
 				26F107591A20A2A600AF7C46 /* UIButton+Bootstrap.m in Sources */,
 				26F1083B1A225A7900AF7C46 /* TestCell.m in Sources */,
 				26B9FB661A1F0EB800AEB323 /* ServiceLocator.m in Sources */,
+				26C946211A2395260036214F /* DBImageView.m in Sources */,
 				26B9FB4E1A1F0EB800AEB323 /* KMRMLLDBViewController.m in Sources */,
 				26F1075F1A20A3ED00AF7C46 /* SampleStrapButtonViewController.m in Sources */,
 				26D5F02D1A1F79D300B75557 /* AppManager.m in Sources */,
