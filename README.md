@@ -20,6 +20,21 @@ Then download the project:
 $ git clone git@github.com:cyhteam/InitApp.git
 ```
 
+## How to clone
+* Create new project
+* Copy Podfile to folder contain project
+* Edit workspace and xcodeproj in Podfile
+* Run pod install in terminal
+* Open xcworkspace instead of xcodeproj
+* Delete all files in project (includes Supporting files)
+* Add all files in InitApp/InitApp
+* Add Link Binary with libraries in Build Phases (like InitApp)
+* Set Precompile Prefix Header is yes, set right path for Prefix header to Prefix.pch file
+* set -fno-objc-arc to BWCrashReportTextFormatter, BWQuincyManager (non arc)
+
+
+
+
 ## Build & Deploy
 
 The project is provided with an Ant Buildfile called `build.xml`, located in the root folder. Inside Buildfile there are some targets that can perform common operations.
