@@ -15,7 +15,7 @@
 //                             phoneCode = phoneUniqueIdentifier ;
 //                             MSISDN
 
-    CTTelephonyNetworkInfo *networkInfo = [[[CTTelephonyNetworkInfo alloc] init] autorelease];
+    CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
     CTCarrier *carrier = [networkInfo subscriberCellularProvider];
     NSString *mcc = [carrier mobileCountryCode];
     NSLog(@"Mobile Country Code (MCC): %@", mcc);
@@ -32,7 +32,7 @@
     //NSString *phoneUniqueIdentifier = [[UIDevice currentDevice] uniqueIdentifier];
     // get MSISDN
     NSString* msisdn=[[NSUserDefaults standardUserDefaults] stringForKey:@"msisdn_account"];
-    NSMutableDictionary* data = [[[NSMutableDictionary alloc] init] autorelease];
+    NSMutableDictionary* data = [[NSMutableDictionary alloc] init];
     [data setValue:simCode forKey:@"simCode"];
     [data setValue:phoneUniqueIdentifier forKey:@"phoneCode"];
     [data setValue:msisdn forKey:@"msisdn"];
