@@ -1,9 +1,9 @@
 //
-//  MSMenuTableViewHeader.m
-//  Example
+//  MSMenuViewController.h
+//  MSDynamicsDrawerViewController
 //
-//  Created by Eric Horacek on 11/6/13.
-//  Copyright (c) 2013 Monospace Ltd. All rights reserved.
+//  Created by Eric Horacek on 11/20/12.
+//  Copyright (c) 2012-2013 Monospace Ltd. All rights reserved.
 //
 //  This code is distributed under the terms and conditions of the MIT license.
 //
@@ -26,30 +26,17 @@
 //  THE SOFTWARE.
 //
 
-#import "MSMenuTableViewHeader.h"
+typedef NS_ENUM(NSUInteger, MSPaneViewControllerType) {
+    MSPaneViewControllerTypeHome,
+    MSPaneViewControllerTypeMonospace,
+    MSPaneViewControllerTypeCount
+};
 
-@implementation MSMenuTableViewHeader
+@interface MenuViewController : UITableViewController
 
-#pragma mark - NSObject
+@property (nonatomic, assign) MSPaneViewControllerType paneViewControllerType;
+@property (nonatomic, weak) MSDynamicsDrawerViewController *dynamicsDrawerViewController;
 
-+ (void)load
-{
-    id labelAppearance = [UILabel appearanceWhenContainedIn:[self class], nil];
-    [labelAppearance setFont:[UIFont systemFontOfSize:13.0]];
-    [labelAppearance setTextColor:[UIColor whiteColor]];
-}
-
-#pragma mark - UIView
-
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        UIView *backgoundView = [UIView new];
-        backgoundView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
-        self.backgroundView = backgoundView;
-    }
-    return self;
-}
+- (void)transitionToViewController:(MSPaneViewControllerType)paneViewControllerType;
 
 @end

@@ -26,10 +26,10 @@
 //  THE SOFTWARE.
 //
 
-#import "MSMenuViewController.h"
+#import "MenuViewController.h"
 #import "MSMonospaceWebViewController.h"
-#import "MSMenuTableViewHeader.h"
-#import "MSMenuCell.h"
+#import "MenuTableViewHeader.h"
+#import "MenuCell.h"
 
 #import "SampleHomeViewController.h"
 
@@ -43,7 +43,7 @@ typedef NS_ENUM(NSUInteger, MSMenuViewControllerTableViewSectionType) {
     MSMenuViewControllerTableViewSectionTypeCount
 };
 
-@interface MSMenuViewController ()
+@interface MenuViewController ()
 
 @property (nonatomic, strong) NSDictionary *paneViewControllerTitles;
 #if defined(STORYBOARD)
@@ -60,7 +60,7 @@ typedef NS_ENUM(NSUInteger, MSMenuViewControllerTableViewSectionType) {
 
 @end
 
-@implementation MSMenuViewController
+@implementation MenuViewController
 
 #pragma mark - NSObject
 
@@ -92,8 +92,8 @@ typedef NS_ENUM(NSUInteger, MSMenuViewControllerTableViewSectionType) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.tableView registerClass:[MSMenuCell class] forCellReuseIdentifier:MSMenuCellReuseIdentifier];
-    [self.tableView registerClass:[MSMenuTableViewHeader class] forHeaderFooterViewReuseIdentifier:MSDrawerHeaderReuseIdentifier];
+    [self.tableView registerClass:[MenuCell class] forCellReuseIdentifier:MSMenuCellReuseIdentifier];
+    [self.tableView registerClass:[MenuTableViewHeader class] forHeaderFooterViewReuseIdentifier:MSDrawerHeaderReuseIdentifier];
     self.tableView.backgroundColor = [UIColor clearColor];
     self.tableView.separatorColor = [UIColor colorWithWhite:1.0 alpha:0.25];
 }

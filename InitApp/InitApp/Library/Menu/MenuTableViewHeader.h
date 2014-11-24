@@ -1,9 +1,9 @@
 //
-//  MSMenuViewController.h
-//  MSDynamicsDrawerViewController
+//  MSMenuTableViewHeader.h
+//  Example
 //
-//  Created by Eric Horacek on 11/20/12.
-//  Copyright (c) 2012-2013 Monospace Ltd. All rights reserved.
+//  Created by Eric Horacek on 11/6/13.
+//  Copyright (c) 2013 Monospace Ltd. All rights reserved.
 //
 //  This code is distributed under the terms and conditions of the MIT license.
 //
@@ -26,17 +26,6 @@
 //  THE SOFTWARE.
 //
 
-typedef NS_ENUM(NSUInteger, MSPaneViewControllerType) {
-    MSPaneViewControllerTypeHome,
-    MSPaneViewControllerTypeMonospace,
-    MSPaneViewControllerTypeCount
-};
-
-@interface MSMenuViewController : UITableViewController
-
-@property (nonatomic, assign) MSPaneViewControllerType paneViewControllerType;
-@property (nonatomic, weak) MSDynamicsDrawerViewController *dynamicsDrawerViewController;
-
-- (void)transitionToViewController:(MSPaneViewControllerType)paneViewControllerType;
+@interface MenuTableViewHeader : UITableViewHeaderFooterView
 
 @end

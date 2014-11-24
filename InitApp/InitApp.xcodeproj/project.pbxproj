@@ -68,6 +68,10 @@
 		26B9FB9C1A1F12C900AEB323 /* KMRMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB981A1F12C900AEB323 /* KMRMDataModel.m */; };
 		26B9FB9D1A1F12C900AEB323 /* KMRMTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */; };
 		26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */; };
+		26CAE0B71A22FEA00032A3B9 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE0B61A22FEA00032A3B9 /* Menu.plist */; };
+		26CAE0BC1A234FF30032A3B9 /* MenuTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0B81A234FF30032A3B9 /* MenuTableViewHeader.m */; };
+		26CAE0BD1A234FF30032A3B9 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0BA1A234FF30032A3B9 /* MenuCell.m */; };
+		26CAE0C41A2351040032A3B9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0C31A2351040032A3B9 /* MenuViewController.m */; };
 		26D5F0271A1F746B00B75557 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0261A1F746B00B75557 /* Constants.m */; };
 		26D5F02D1A1F79D300B75557 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F02C1A1F79D300B75557 /* AppManager.m */; };
 		26D5F0381A1F7B8E00B75557 /* FCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0311A1F7B8E00B75557 /* FCModel.m */; };
@@ -100,9 +104,6 @@
 		26F107A61A21869400AF7C46 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F107A51A21869400AF7C46 /* menu_icon.png */; };
 		26F108041A22534200AF7C46 /* MSMonospaceWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F108031A22534200AF7C46 /* MSMonospaceWebViewController.m */; };
 		26F108071A22534E00AF7C46 /* window_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F108061A22534E00AF7C46 /* window_background.png */; };
-		26F1080F1A22536100AF7C46 /* MSMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1080A1A22536100AF7C46 /* MSMenuCell.m */; };
-		26F108101A22536100AF7C46 /* MSMenuTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1080C1A22536100AF7C46 /* MSMenuTableViewHeader.m */; };
-		26F108111A22536100AF7C46 /* MSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1080E1A22536100AF7C46 /* MSMenuViewController.m */; };
 		26F108161A22563000AF7C46 /* NALLabelsMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F108151A22563000AF7C46 /* NALLabelsMatrix.m */; };
 		26F1081F1A22583F00AF7C46 /* SampleLabelMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1081E1A22583F00AF7C46 /* SampleLabelMatrixViewController.m */; };
 		26F108331A225A7900AF7C46 /* down_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F108211A225A7900AF7C46 /* down_red@2x.png */; };
@@ -226,6 +227,13 @@
 		26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRMTopic.m; sourceTree = "<group>"; };
 		26B9FB9E1A1F153E00AEB323 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26B9FB9F1A1F153E00AEB323 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26CAE0B61A22FEA00032A3B9 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
+		26CAE0B81A234FF30032A3B9 /* MenuTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewHeader.m; sourceTree = "<group>"; };
+		26CAE0B91A234FF30032A3B9 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		26CAE0BA1A234FF30032A3B9 /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		26CAE0BB1A234FF30032A3B9 /* MenuTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewHeader.h; sourceTree = "<group>"; };
+		26CAE0C21A2351040032A3B9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		26CAE0C31A2351040032A3B9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		26D5F0251A1F746B00B75557 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		26D5F0261A1F746B00B75557 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		26D5F02B1A1F79D300B75557 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
@@ -274,12 +282,6 @@
 		26F108021A22534200AF7C46 /* MSMonospaceWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMonospaceWebViewController.h; sourceTree = "<group>"; };
 		26F108031A22534200AF7C46 /* MSMonospaceWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMonospaceWebViewController.m; sourceTree = "<group>"; };
 		26F108061A22534E00AF7C46 /* window_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_background.png; sourceTree = "<group>"; };
-		26F108091A22536100AF7C46 /* MSMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenuCell.h; sourceTree = "<group>"; };
-		26F1080A1A22536100AF7C46 /* MSMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenuCell.m; sourceTree = "<group>"; };
-		26F1080B1A22536100AF7C46 /* MSMenuTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenuTableViewHeader.h; sourceTree = "<group>"; };
-		26F1080C1A22536100AF7C46 /* MSMenuTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenuTableViewHeader.m; sourceTree = "<group>"; };
-		26F1080D1A22536100AF7C46 /* MSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenuViewController.h; sourceTree = "<group>"; };
-		26F1080E1A22536100AF7C46 /* MSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenuViewController.m; sourceTree = "<group>"; };
 		26F108141A22563000AF7C46 /* NALLabelsMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALLabelsMatrix.h; sourceTree = "<group>"; };
 		26F108151A22563000AF7C46 /* NALLabelsMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NALLabelsMatrix.m; sourceTree = "<group>"; };
 		26F1081D1A22583F00AF7C46 /* SampleLabelMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLabelMatrixViewController.h; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 		26B9FACF1A1F0EB800AEB323 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				26CAE0C11A2351040032A3B9 /* Menu */,
 				26B9FAD01A1F0EB800AEB323 /* Home */,
 			);
 			path = Common;
@@ -669,6 +672,7 @@
 		26B9FB211A1F0EB800AEB323 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				26CAE0B61A22FEA00032A3B9 /* Menu.plist */,
 				26F1074E1A20954700AF7C46 /* Sample_Topics.plist */,
 				26B9FB221A1F0EB800AEB323 /* Kimera_Topics.plist */,
 			);
@@ -777,6 +781,15 @@
 				26B9FB9A1A1F12C900AEB323 /* KMRMTopic.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		26CAE0C11A2351040032A3B9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				26CAE0C21A2351040032A3B9 /* MenuViewController.h */,
+				26CAE0C31A2351040032A3B9 /* MenuViewController.m */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		26D5F02E1A1F7B8E00B75557 /* Database */ = {
@@ -950,12 +963,10 @@
 		26F108081A22536100AF7C46 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				26F108091A22536100AF7C46 /* MSMenuCell.h */,
-				26F1080A1A22536100AF7C46 /* MSMenuCell.m */,
-				26F1080B1A22536100AF7C46 /* MSMenuTableViewHeader.h */,
-				26F1080C1A22536100AF7C46 /* MSMenuTableViewHeader.m */,
-				26F1080D1A22536100AF7C46 /* MSMenuViewController.h */,
-				26F1080E1A22536100AF7C46 /* MSMenuViewController.m */,
+				26CAE0B81A234FF30032A3B9 /* MenuTableViewHeader.m */,
+				26CAE0B91A234FF30032A3B9 /* MenuCell.h */,
+				26CAE0BA1A234FF30032A3B9 /* MenuCell.m */,
+				26CAE0BB1A234FF30032A3B9 /* MenuTableViewHeader.h */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1136,6 +1147,7 @@
 				26B9FB721A1F0EB800AEB323 /* utils.py in Resources */,
 				26F108361A225A7900AF7C46 /* index_press@2x.png in Resources */,
 				26F1074D1A20931600AF7C46 /* SampleHomeViewController~iphone.xib in Resources */,
+				26CAE0B71A22FEA00032A3B9 /* Menu.plist in Resources */,
 				26B9FB591A1F0EB800AEB323 /* KMRMToolsViewController~iphone.xib in Resources */,
 				26B9FB491A1F0EB800AEB323 /* KMRMArcIssuesViewController~ipad.xib in Resources */,
 				26F108351A225A7900AF7C46 /* index@2x.png in Resources */,
@@ -1216,7 +1228,6 @@
 				26B9FB7A1A1F0EB800AEB323 /* release_notes.md in Sources */,
 				26F1083E1A225A7900AF7C46 /* SampleSortableViewController.m in Sources */,
 				26B9FB761A1F0EB800AEB323 /* README.md in Sources */,
-				26F108101A22536100AF7C46 /* MSMenuTableViewHeader.m in Sources */,
 				26B9FB611A1F0EB800AEB323 /* CYHInterface.m in Sources */,
 				26B9FB541A1F0EB800AEB323 /* KMRMMrcIssueViewController.m in Sources */,
 				26B9FB631A1F0EB800AEB323 /* DefaultTheme.m in Sources */,
@@ -1228,6 +1239,8 @@
 				26B9FB571A1F0EB800AEB323 /* KMRMToolsViewController.m in Sources */,
 				26B9FBA01A1F153E00AEB323 /* AppDelegate.m in Sources */,
 				26B9FB791A1F0EB800AEB323 /* README.md in Sources */,
+				26CAE0BC1A234FF30032A3B9 /* MenuTableViewHeader.m in Sources */,
+				26CAE0BD1A234FF30032A3B9 /* MenuCell.m in Sources */,
 				26F107441A2091EC00AF7C46 /* KMRMHomeViewController.m in Sources */,
 				26B9FB5F1A1F0EB800AEB323 /* BaseViewController.m in Sources */,
 				26D5F0591A1F81D100B75557 /* BWQuincyManager.m in Sources */,
@@ -1246,12 +1259,11 @@
 				26F1083A1A225A7900AF7C46 /* SampleSortTableView.m in Sources */,
 				26B9FB5C1A1F0EB800AEB323 /* KMRMHomeCell.m in Sources */,
 				26B9FB9D1A1F12C900AEB323 /* KMRMTopic.m in Sources */,
-				26F1080F1A22536100AF7C46 /* MSMenuCell.m in Sources */,
 				26F1076D1A20EA6200AF7C46 /* DXAlertView.m in Sources */,
 				26B9FB5A1A1F0EB800AEB323 /* UIResponder+CYH.m in Sources */,
 				26D5F03E1A1F7C6D00B75557 /* DBDatasource.m in Sources */,
 				26F108161A22563000AF7C46 /* NALLabelsMatrix.m in Sources */,
-				26F108111A22536100AF7C46 /* MSMenuViewController.m in Sources */,
+				26CAE0C41A2351040032A3B9 /* MenuViewController.m in Sources */,
 				26B9FB481A1F0EB800AEB323 /* KMRMArcIssuesViewController.m in Sources */,
 				26B9FB811A1F0F3500AEB323 /* main.m in Sources */,
 				26D5F03A1A1F7B8E00B75557 /* FCModelDatabaseQueue.m in Sources */,

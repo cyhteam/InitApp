@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Examples</string>
+		<key>code</key>
+		<string>examples</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Home</string>
+				<key>viewController</key>
+				<string>SampleHomeViewController</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>About</string>
+		<key>code</key>
+		<string>about</string>
+		<key>arguments</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>CYH Team</string>
+				<key>viewController</key>
+				<string>MSMonospaceWebViewController</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

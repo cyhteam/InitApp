@@ -22,7 +22,7 @@
 #import "GreenTheme.h"
 #import "DefaultTheme.h"
 
-#import "MSMenuViewController.h"
+#import "MenuViewController.h"
 #import "MSDynamicsDrawerViewController.h"
 #import "MSDynamicsDrawerStyler.h"
 
@@ -71,7 +71,7 @@
     [self.dynamicsDrawerViewController addStylersFromArray:@[[MSDynamicsDrawerScaleStyler styler], [MSDynamicsDrawerFadeStyler styler]] forDirection:MSDynamicsDrawerDirectionLeft];
     [self.dynamicsDrawerViewController addStylersFromArray:@[[MSDynamicsDrawerParallaxStyler styler]] forDirection:MSDynamicsDrawerDirectionRight];
     
-    MSMenuViewController *menuViewController = [MSMenuViewController new];
+    MenuViewController *menuViewController = [MenuViewController new];
 
     menuViewController.dynamicsDrawerViewController = self.dynamicsDrawerViewController;
     [self.dynamicsDrawerViewController setDrawerViewController:menuViewController forDirection:MSDynamicsDrawerDirectionLeft];

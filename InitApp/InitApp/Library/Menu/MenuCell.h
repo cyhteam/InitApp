@@ -26,6 +26,6 @@
 //  THE SOFTWARE.
 //
 
-@interface MSMenuCell : UITableViewCell
+@interface MenuCell : UITableViewCell
 
 @end

@@ -26,9 +26,9 @@
 //  THE SOFTWARE.
 //
 
-#import "MSMenuCell.h"
+#import "MenuCell.h"
 
-@implementation MSMenuCell
+@implementation MenuCell
 
 #pragma mark - UITableViewCell
 
