@@ -76,6 +76,14 @@
 				<key>viewController</key>
 				<string>SampleAlertViewController</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>Popup</string>
+				<key>detail</key>
+				<string>KCLPopup</string>
+				<key>viewController</key>
+				<string>SamplePopupViewController</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>

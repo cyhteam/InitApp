@@ -110,6 +110,8 @@
 		26CAE0BC1A234FF30032A3B9 /* MenuTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0B81A234FF30032A3B9 /* MenuTableViewHeader.m */; };
 		26CAE0BD1A234FF30032A3B9 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0BA1A234FF30032A3B9 /* MenuCell.m */; };
 		26CAE0C41A2351040032A3B9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0C31A2351040032A3B9 /* MenuViewController.m */; };
+		26D3A14E1A24B5570089081C /* SamplePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D3A14D1A24B5570089081C /* SamplePopupViewController.m */; };
+		26D3A1531A24B5780089081C /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D3A1521A24B5780089081C /* KLCPopup.m */; };
 		26D5F0271A1F746B00B75557 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0261A1F746B00B75557 /* Constants.m */; };
 		26D5F02D1A1F79D300B75557 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F02C1A1F79D300B75557 /* AppManager.m */; };
 		26D5F0381A1F7B8E00B75557 /* FCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0311A1F7B8E00B75557 /* FCModel.m */; };
@@ -320,6 +322,10 @@
 		26CAE0BB1A234FF30032A3B9 /* MenuTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewHeader.h; sourceTree = "<group>"; };
 		26CAE0C21A2351040032A3B9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		26CAE0C31A2351040032A3B9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		26D3A14C1A24B5570089081C /* SamplePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplePopupViewController.h; sourceTree = "<group>"; };
+		26D3A14D1A24B5570089081C /* SamplePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplePopupViewController.m; sourceTree = "<group>"; };
+		26D3A1511A24B5780089081C /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		26D3A1521A24B5780089081C /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		26D5F0251A1F746B00B75557 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		26D5F0261A1F746B00B75557 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		26D5F02B1A1F79D300B75557 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
@@ -624,6 +630,7 @@
 		26B9FAF41A1F0EB800AEB323 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				26D3A14F1A24B5780089081C /* Popup */,
 				26C946151A2395260036214F /* Images */,
 				26F108121A22563000AF7C46 /* Tables */,
 				26F108081A22536100AF7C46 /* Menu */,
@@ -1100,6 +1107,32 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		26D3A14B1A24B5570089081C /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				26D3A14C1A24B5570089081C /* SamplePopupViewController.h */,
+				26D3A14D1A24B5570089081C /* SamplePopupViewController.m */,
+			);
+			path = KLCPopup;
+			sourceTree = "<group>";
+		};
+		26D3A14F1A24B5780089081C /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				26D3A1501A24B5780089081C /* KLCPopup */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		26D3A1501A24B5780089081C /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				26D3A1511A24B5780089081C /* KLCPopup.h */,
+				26D3A1521A24B5780089081C /* KLCPopup.m */,
+			);
+			path = KLCPopup;
+			sourceTree = "<group>";
+		};
 		26D5F02E1A1F7B8E00B75557 /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -1230,6 +1263,7 @@
 		26F1076E1A20EB6F00AF7C46 /* Popups */ = {
 			isa = PBXGroup;
 			children = (
+				26D3A14B1A24B5570089081C /* KLCPopup */,
 				26F1076F1A20EB6F00AF7C46 /* AlertView */,
 			);
 			path = Popups;
@@ -1571,6 +1605,7 @@
 				26B9FB761A1F0EB800AEB323 /* README.md in Sources */,
 				26B9FB611A1F0EB800AEB323 /* CYHInterface.m in Sources */,
 				26B9FB541A1F0EB800AEB323 /* KMRMMrcIssueViewController.m in Sources */,
+				26D3A1531A24B5780089081C /* KLCPopup.m in Sources */,
 				26B9FB631A1F0EB800AEB323 /* DefaultTheme.m in Sources */,
 				26B9FB601A1F0EB800AEB323 /* BaseTableViewController.m in Sources */,
 				26C946271A2395340036214F /* SampleCacheImageViewController.m in Sources */,
@@ -1594,6 +1629,7 @@
 				26C9461F1A2395260036214F /* DBImage.m in Sources */,
 				26D5F0581A1F81D100B75557 /* BWCrashReportTextFormatter.m in Sources */,
 				26F107591A20A2A600AF7C46 /* UIButton+Bootstrap.m in Sources */,
+				26D3A14E1A24B5570089081C /* SamplePopupViewController.m in Sources */,
 				26C946861A23A3C60036214F /* HTKDynamicResizingCollectionViewCell.m in Sources */,
 				26F1083B1A225A7900AF7C46 /* TestCell.m in Sources */,
 				26B9FB661A1F0EB800AEB323 /* ServiceLocator.m in Sources */,
